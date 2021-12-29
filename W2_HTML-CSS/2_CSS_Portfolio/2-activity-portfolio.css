@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;800&display=swap");
+
+
+body {
+	/* 	background-color: #f1faee; */
+	margin: 0;
+	font-family: "Archivo", "Roboto", sans-serif;
+	color: #457b9d;
+	line-height: 1.75;
+}
+
+/* .homeImage {
+	background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/394820130082951.61788f4ae51cc.png");
+	background-color: #4447ff;
+	height: 500px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+} */
+
+/* .flexHeader {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+} */
+
+h1 {
+	color: #e63946;
+	font-family: "Raleway", "Archivo", sans-serif;
+	font-size: 72px;
+	line-height: 0.5;
+	text-align: center;
+	margin-top: 100px;
+}
+
+h2 {
+	color: #1d3557;
+	font-family: "Raleway", "Archivo", sans-serif;
+	font-size: 36px;
+	line-height: 1;
+	text-align: center;
+}
+
+h3 {
+	color: #1d3557;
+	font-family: "Raleway", "Archivo", sans-serif;
+	font-size: 24px;
+	font-weight: 10px;
+	text-align: center;
+}
+
+h4 {
+	font-family: "Raleway", "Archivo", sans-serif;
+	font-size: 18px;
+	font-weight: 10px;
+	text-align: center;
+}
+
+.container1 {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-content: center;
+	width: 65%;
+}
+
+.box1 {
+	flex: 1;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #457b9d;
+	border-radius: 20px;
+	/* box-shadow: 5px 8px #457b9d; */
+	/* 	background-color: #f1faee; */
+	width: 250px;
+	padding: 20px 20px 30px;
+	margin: 20px;
+}
+
+.box1:hover {
+	color: #e63946;
+	border-color: #e63946;
+}
+
+.box2 {
+	flex: 1;
+	/* 	border-width: 3px;
+	border-style: solid;
+	border-color: #457b9d;
+	border-radius: 10px;
+	box-shadow: 5px 8px #457b9d; */
+	/* 	background-color: #f1faee; */
+	text-align: justify;
+	width: 50%;
+	/* padding: 20px 60px 20px; */
+	margin: 40px;
+}
+
+.all1 {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	box-sizing: border-box;
+}
+
+.flexContact {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.textboxTitle {
+	color: #e63946;
+	font-family: "Archivo", "Roboto" sans-serif;
+	font-weight: bold;
+	text-align: center;
+	font-size: 36px;
+}
+.textbox {
+	font-family: "Archivo", "Roboto" sans-serif;
+	width: 100%;
+	padding: 20px;
+	margin: 10px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #457b9d;
+	border-radius: 20px;
+}
+
+.textbox:hover {
+	color: #e63946;
+	border-color: #e63946;
+}
+
+.flexButton {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+	color: white;
+	font-family: "Raleway", "Archivo", sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	letter-spacing: 2px;
+	background-color: #FF6262;
+	width: 40%;
+	border: none;
+	border-radius: 20px;
+	padding: 20px;
+}
+
+.button:hover {
+	background-color: #e63946;
+}
+
+a {
+	text-decoration: none;
+	color: #457b9d;
+}
+
+a:hover {
+	color: #e63946;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+@media screen and (max-width: 1200px) {
+	.container1 {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-content: center;
+		align-items: center;
+	}
+}
+
+/*   */
+/*   */
+/*   */
+/*   */
+/*   */
+
+/* body {
+	margin: 0;
+    font-family: "Helvetica", "Arial", sans-serif;
+}
+
+.backgroundImage {
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/f4c64c130082951.61788f4ae4a41.jpg");
+    background-color: #ffdddb;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.headerPadding {
+    padding: 20px;
+}
+
+h1 {
+	color: #ffffff;
+	font-size: 48px;
+	font-family: "Archivo";
+	text-align: center;
+}
+
+h2 {
+    color: #ffffff;
+	font-size: 24px;
+	font-family: "Archivo";
+	text-align: center;
+}
+
+.padding {
+	box-sizing: border-box;
+	padding: 25px 50px 75px 100px;
+}
+ */
