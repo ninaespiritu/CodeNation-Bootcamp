@@ -1,6 +1,7 @@
 .all {
 	/* SMALL */
 	/* 	margin: 30px;  */
+	/* margin: 50px 120px; */
 	margin: 50px 120px;
 }
 
@@ -21,6 +22,12 @@ ul {
 	margin: 0;
 }
 
+li:hover {
+	color: #e16259;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
 a {
 	text-decoration: underline;
 	text-underline-offset: 0.2em;
@@ -32,9 +39,9 @@ a:hover {
 	color: #e16259;
 }
 
+a:link,
 a:visited {
-	text-decoration: underline;
-	text-underline-offset: 0.2em;
+	text-decoration: none;
 }
 
 h1 {
@@ -58,14 +65,14 @@ h3 {
 	font-size: 30px;
 	line-height: 1.2;
 	letter-spacing: -0.025em;
+	margin: 10px 0px;
 }
 
 hr {
 	border: 0;
 	height: 1px;
 	background: #e6e6e6;
-	margin-top: 50px;
-	margin-bottom: 50px;
+	margin: 40px 0px;
 }
 
 blockquote {
@@ -78,26 +85,73 @@ blockquote {
 	flex-direction: row-reverse;
 	justify-content: space-between;
 	align-items: center;
-	padding: 55px 0px;
+	padding: 50px 0px 0px;
 }
 
 .headerText-container {
+	/* max-width: 600px; */
 	width: 600px;
 }
 
 .headerImage-container {
 	display: flex;
+	/* max-width: 500px; */
 	width: 500px;
-	align-self: center;
-	padding-right: 60px;
+	justify-content: center;
+	padding-right: 50px;
+	/* padding: 40px; */
 }
 
 .headerImage {
 	/* 	box-sizing: border-box; */
 	justify-content: center;
-	max-width: 100%;
+	width: 100%;
 	height: auto;
 	/* 	padding: 50px; */
+}
+
+.headerTeamText {
+	font-size: 12px;
+	font-weight: 500;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	padding: 5px 0px;
+}
+
+.headerTeam-container {
+	/* 	display: block;
+	margin: auto; */
+	max-width: 540px;
+	padding: 20px 0px;
+}
+
+.headerTeamImage-container {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: flex-start;
+	width: 100%;
+}
+
+/* .headerTeamImage-container {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+} */
+
+.headerTeamImage-size {
+	display: flex;
+	align-items: center;
+	padding-right: 20px;
+}
+
+.headerTeamImage {
+	/* 	box-sizing: border-box; */
+	max-height: 22px;
+	max-width: 90px;
+	padding-bottom: 20px;
 }
 
 .feature-container {
@@ -108,8 +162,25 @@ blockquote {
 	padding: 55px 0px 55px;
 }
 
+.featureIcon-1 {
+	max-width: 100px;
+}
+
+.featureIcon-2 {
+	max-width: 80px;
+}
+
+.featureIcon-3 {
+	max-width: 160px;
+}
+
+.featureIcon-4 {
+	max-width: 60px;
+}
+
 .featureText-container {
 	width: 350px;
+	padding-right: 50px;
 }
 
 .featureMedia-container {
@@ -155,13 +226,18 @@ blockquote {
 
 .sectionIcon-container {
 	display: flex;
-	width: 250px;
-	align-self: center;
-	padding: 0px 160px;
+	width: 40%;
+	justify-content: center;
+	padding: 0px 20px;
 }
 
 .sectionIcon {
-	max-width: 100%;
+	max-width: 250px;
+	height: auto;
+}
+
+.sectionIcon-2 {
+	max-width: 350px;
 	height: auto;
 }
 
@@ -170,27 +246,54 @@ blockquote {
 	margin-bottom: -25px;
 }
 
+/* .sectionEnd-background {
+	display: inline-block;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+    margin: 0;
+} */
+
 .sectionEnd-container {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 80px 0px;
+	height: 400px;
+	padding: 50px 0px;
+	background-image: url(https://www.notion.so/cdn-cgi/image/format=auto,width=640,quality=100/front-static/pages/product/sitting-character.png);
+	background-position: bottom 0px left 50px;
+	background-repeat: no-repeat;
+	background-size: 250px;
 }
 
 .sectionEnd {
 	text-align: center;
 }
 
+.sectionEnd-subtext {
+	font-size: 17px;
+	letter-spacing: 0;
+}
+
 .sectionEnd-contactSales {
 	font-size: 17px;
 	letter-spacing: 0;
+	text-decoration: underline;
+	text-underline-offset: 0.2em;
+	color: #666665;
+}
+
+.sectionEnd-contactSales:hover {
+	text-decoration: none;
+	color: #e16259;
 }
 
 .review-flex {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
-	padding: 50px 0px;
+	padding: 70px 0px 0px;
 }
 
 .review {
@@ -206,6 +309,28 @@ blockquote {
 .review-logo {
 	max-height: 30px;
 	max-width: 120px;
+}
+
+/* .review-avatar-container {
+
+} */
+
+.review-person-container {
+	display: flex;
+	align-items: center;
+	padding: 10px 0px;
+	font-size: 14px;
+	letter-spacing: 0;
+}
+
+.review-personAvatar {
+	max-width: 60px;
+	max-height: 60px;
+	padding-right: 10px;
+}
+
+.review-personName {
+	color: black;
 }
 
 .button-1 {
@@ -301,10 +426,14 @@ blockquote {
 	background-color: #efeeec;
 }
 
+button:visited {
+	text-decoration: none;
+}
+
 footer {
 	font-size: 14px;
 	font-weight: 370;
-	line-height: 1.75;
+	line-height: 1.85;
 	letter-spacing: 0.02em;
 }
 
@@ -315,12 +444,13 @@ footer {
 
 .footer-item {
 	width: calc(100% / 6);
-	margin-bottom: 30px;
 }
 
 .footer-item-bold {
 	color: black;
+	font-size: 15px;
 	font-weight: 600;
+	letter-spacing: 0.01em;
 }
 
 .footer-item-logo {
@@ -330,7 +460,20 @@ footer {
 	width: 90px;
 }
 
+.footerBottom-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+
 .footerBottom-flex {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.footerBottom-item-flex {
 	display: flex;
 	flex-flow: row wrap;
 }
@@ -338,7 +481,70 @@ footer {
 .footerBottom-item {
 	color: black;
 	font-weight: 600;
-	padding-right: 20px;
+	padding-right: 25px;
+	letter-spacing: 0.001em;
+}
+
+.social-logo-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 190px;
+}
+
+.social-logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 32px;
+	height: 30px;
+	border-style: none;
+	background-color: transparent;
+}
+
+.social-twitter,
+.social-linkedin,
+.social-facebook,
+.social-instagram,
+.social-youtube {
+	max-width: 25px;
+	max-height: 25px;
+}
+
+.social-twitter,
+.social-linkedin,
+.social-facebook,
+.social-instagram,
+.social-youtube path {
+	fill: #666665;
+}
+
+.social-logo:hover {
+	background-color: #f0efed;
+}
+
+/* .social-twitter:hover,
+.social-linkedin:hover,
+.social-facebook:hover,
+.social-instagram:hover,
+.social-youtube:hover {
+	background-color: #e0dbd4;
+} */
+
+.social-twitter:hover path {
+	fill: #1da1f2;
+}
+.social-linkedin:hover path {
+	fill: #2867b2;
+}
+.social-facebook:hover path {
+	fill: #4267b2;
+}
+.social-instagram:hover path {
+	fill: black;
+}
+.social-youtube:hover path {
+	fill: #ff0000;
 }
 
 .notion-logo-full {
@@ -350,46 +556,136 @@ footer {
 	.all {
 		margin: 100px;
 	}
-}
+} */
 
-@media screen and (max-width: 1600px) {
+@media all and (max-width: 1400px) {
 	.all {
 		margin: 50px;
 	}
+	h1 {
+		font-size: 50px;
+		line-height: 1.1;
+	}
+	.headerImage-container {
+		padding: 20px;
+	}
 }
- */
-@media screen and (max-width: 1024px) {
-	/* 	video {
-        width: 100%;
-        height: auto;
-        padding: 30px;
-	} */
 
+@media all and (max-width: 1024px) {
 	.all {
 		margin: 30px;
 	}
-
 	h1 {
-		font-size: 40px;
+		font-size: 50px;
+		margin-top: 20px;
 	}
-
 	h3 {
 		margin-bottom: -10px;
 	}
-
 	.header-container {
 		display: block;
 		align-items: center;
 		padding: 55px 0px;
 	}
-
 	.headerText-container {
 		display: block;
 		margin: auto;
 		text-align: center;
 		padding: 0;
 	}
+	.headerImage-container {
+		display: block;
+		margin: auto;
+		width: 400px;
+		align-self: center;
+		padding: 0;
+	}
+	.headerTeam-container {
+		display: block;
+		margin: auto;
+		width: 400px;
+		/* padding: 50px 0px; */
+	}
+	.headerTeamImage-container {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: center;
+		width: 100%;
+	}
+	.headerTeamImage-size {
+		align-self: center;
+		padding: 5px 10px 0px;
+	}
+	.button-1 {
+		display: block;
+		margin: auto;
+	}
+	.feature-container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 55px 0px 55px;
+	}
+	.featureText-container {
+		width: 100%;
+		padding: 0px;
+	}
+	.featureMedia-container {
+		width: 100%;
+	}
+	.sectionTitle-container {
+		display: block;
+	}
+	.sectionText-container {
+		/* 	box-sizing: border-box; */
+		width: 500px;
+		/* 	padding-bottom: 50px; */
+	}
+	.sectionIcon-container {
+		/* display: block;
+		margin: auto; */
+		justify-content: center;
+		width: 100%;
+		padding: 0px;
+	}
+	.sectionEnd-container {
+		height: 400px;
+		padding: 50px 0px;
+		background-image: url(https://www.notion.so/cdn-cgi/image/format=auto,width=640,quality=100/front-static/pages/product/sitting-character.png);
+		background-position: bottom 0px left 10px;
+		background-repeat: no-repeat;
+		background-size: 200px;
+	}
+	.review-flex {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+		padding: 40px 0px 0px;
+	}
+	.review {
+		width: 650px;
+		/* padding-right: 20px; */
+		padding-bottom: 20px;
+	}
+	.footer-item-bold {
+		color: black;
+		font-size: 14px;
+		font-weight: 600;
+	}
+	.footer-item {
+		width: calc(100% / 2);
+		margin-top: 40px;
+	}
+	.footer-item-logo {
+		width: 100%;
+	}
+}
 
+@media all and (max-width: 800px) {
+	h1 {
+		font-size: 40px;
+	}
 	.headerImage-container {
 		display: block;
 		margin: auto;
@@ -397,56 +693,67 @@ footer {
 		align-self: center;
 		padding: 0;
 	}
-
-	.button-1 {
-		display: block;
-		margin: auto;
-	}
-
-	.feature-container {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		padding: 55px 0px 55px;
-	}
-
-	.featureText-container {
+	.headerText-container {
 		width: 100%;
 	}
-
-	.featureMedia-container {
-		width: 100%;
+	/* .section-container {
+		padding: 10px 0px;
+	} */
+	.sectionEnd-container {
+		height: 100%;
+		padding: 10px 0px;
+		background-image: none;
 	}
+}
 
-	.sectionTitle-container {
-		display: block;
+@media all and (max-width: 600px) {
+	/* 	h1 {
+		color: black;
+		font-size: 74px;
+		line-height: 1;
+		letter-spacing: -0.025em;
+		margin-bottom: 0px;
+	} */
+	.all {
+		margin: 15px;
 	}
-
+	h2 {
+		font-size: 30px;
+		/* line-height: 1.1em;
+		letter-spacing: -0.025em;
+		margin-bottom: -5px; */
+	}
+	h3 {
+		font-size: 21px;
+		line-height: 1;
+		margin-bottom: -10px;
+	}
+	.section-container {
+		padding: 20px 0px;
+	}
 	.sectionText-container {
-		/* 	box-sizing: border-box; */
-		width: 500px;
-		/* 	padding-bottom: 50px; */
+		width: 100%;
 	}
-
-	.sectionIcon-container {
-		display: block;
-		margin: auto;
-		width: 250px;
-		padding: 0px;
-	}
-
-	.review {
-		width: 700px;
-		padding-right: 20px;
+	.footerBottom-container {
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: space-evenly;
+		align-items: flex-start;
+		height: 100px;
 		padding-bottom: 20px;
 	}
-
-	.footer-item {
-		width: calc(100% / 2);
+	.footerBottom-flex {
+		display: flex;
+		flex-flow: column wrap;
 	}
-
-	.footer-item-logo {
-		width: 100%;
-		margin-bottom: 30px;
+	.footerBottom-copyright,
+	.footerBottom-item,
+	.social-logo-container {
+		padding-bottom: 10px;
+		padding-top: 10px;
 	}
+	/* 	.footerBottom-item-flex {
+		display: flex;
+		flex-flow: row wrap;
+	} */
 }
