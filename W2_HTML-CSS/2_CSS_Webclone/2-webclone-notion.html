@@ -5,638 +5,750 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" type="text/css" href="2-webclone-notion.css" />
+		<script
+			src="https://kit.fontawesome.com/7dc700d849.js"
+			crossorigin="anonymous"
+		></script>
 		<title>Notion</title>
 	</head>
 
 	<body>
 		<!-- NAVBAR -->
-		<!-- <header>
+		<nav>
+			<div class="nav-box">
+				<div class="nav-left">
+					<div class="nav-logo">
+						<img
+							class="notion-logo"
+							src="resources/notion-logo-nav.svg"
+						/>
+					</div>
 
-		</header> -->
+					<ul class="nav-links-left">
+						<li>
+							<a href="#"
+								><div class="nav-links-box">Product</div></a
+							>
+						</li>
+						<li>
+							<a href="#"
+								><div class="nav-links-box">Download</div></a
+							>
+						</li>
+						<li>
+							<a href="#"
+								><div class="nav-links-box">Solutions</div></a
+							>
+						</li>
+						<li>
+							<a href="#"
+								><div class="nav-links-box">Resources</div></a
+							>
+						</li>
+						<li>
+							<a href="#"
+								><div class="nav-links-box">Pricing</div></a
+							>
+						</li>
+					</ul>
+				</div>
+
+				<ul class="nav-links-right">
+					<li>
+						<a
+							href="https://www.notion.so/contact-sales"
+							target="_blank"
+							><div class="nav-links-box">Contact sales</div></a
+						>
+					</li>
+					<li>|</li>
+					<li>
+						<a href="https://www.notion.so/login" target="_blank"
+							><div class="nav-links-box">Log in</div></a
+						>
+					</li>
+					<li>
+						<a href="https://www.notion.so/signup" target="_black"
+							><button class="button-2">
+								Try Notion free
+							</button></a
+						>
+					</li>
+				</ul>
+
+				<input type="checkbox" id="check" />
+				<label for="check" class="checkbtn">
+					<!-- <i class="fas fa-bars"></i> -->
+					<div class="burger">
+						<div class="burger-line1"></div>
+						<div class="burger-line2"></div>
+						<div class="burger-line3"></div>
+					</div>
+				</label>
+			</div>
+		</nav>
 
 		<div class="all">
 			<!-- HEADER -->
-			<section>
-				<div class="header-container">
-					<div class="headerImage-container">
-						<img
-							class="headerImage"
-							src="https://www.notion.so/cdn-cgi/image/format=auto,width=1080,quality=100/front-static/pages/product/home-page-hero-refreshed-v3.png"
-							alt="header-img"
-						/>
-					</div>
-					<div class="headerText-container">
-						<h1>
-							One workspace.<br />
-							Every team.
-						</h1>
-						<p>
-							We're more than a doc. Or a table.<br />
-							Customize Notion to work the way you do.
-						</p>
-
-						<a href="https://www.notion.so/signup" target="_blank">
-							<button class="button-1">Try Notion free</button>
-						</a>
-
-						<div class="headerTeam-container">
-							<p class="headerTeamText">Trusted by teams at</p>
-							<!-- logos -->
-							<div class="headerTeamImage-container">
-								<div class="headerTeamImage-size">
-									<img
-										class="headerTeamImage"
-										src="https://www.notion.so/front-static/pages/product/pixar-logo.png"
-										alt="logo-pixar"
-									/>
-								</div>
-								<div class="headerTeamImage-size">
-									<img
-										class="headerTeamImage"
-										src="https://www.notion.so/front-static/pages/product/travelperk-logo.png"
-										alt="logo-travelperk"
-									/>
-								</div>
-								<div class="headerTeamImage-size">
-									<img
-										class="headerTeamImage"
-										src="https://www.notion.so/front-static/pages/product/cornershop-logo.png"
-										alt="logo-cornershop"
-									/>
-								</div>
-
-								<div class="headerTeamImage-size">
-									<img
-										class="headerTeamImage"
-										src="https://www.notion.so/front-static/pages/product/spotify-logo-v2.png"
-										alt="logo-spotify"
-									/>
-								</div>
-								<div class="headerTeamImage-size">
-									<img
-										class="headerTeamImage"
-										src="https://www.notion.so/front-static/pages/product/headspace-logo.png"
-										alt="logo-headspace"
-									/>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<!-- FEAT 1 - TEAM UP WITHOUT THE CHAOS -->
-			<section class="feature-container">
-				<div class="featureText-container">
-					<div>
-						<img
-							class="featureIcon-1"
-							src="https://www.notion.so/cdn-cgi/image/format=auto,width=128,quality=100/front-static/pages/product/spot/spot-team-up.png"
-							alt="icon-feature1"
-						/>
-					</div>
-					<h3>Team up without the chaos</h3>
-					<p>
-						Connect your teams, projects, and docs in Notion — so
-						you can bust silos and move as one.
-					</p>
-				</div>
-				<div class="featureMedia-container">
-					<video autoplay playsinline loop muted class="featureVideo">
-						<source
-							src="https://www.notion.so/front-static/pages/product/value-props/team-up-emoji-tile-v2.mp4"
-							type="video/mp4"
-						/>
-						Your browser does not support HTML5 video.
-					</video>
-				</div>
-			</section>
-
-			<!-- FEAT 2 - NEVER ASK "WHAT'S THE CONTEXT?" AGAIN -->
-			<section class="feature-container">
-				<div class="featureText-container">
-					<div>
-						<img
-							class="featureIcon-2"
-							src="https://www.notion.so/cdn-cgi/image/format=auto,width=256,quality=100/front-static/pages/product/spot/spot-context.png"
-							alt="icon-feature2"
-						/>
-					</div>
-					<h3>Never ask “What's the context?” again</h3>
-					<p>
-						Stale wikis aren't helpful. Neither are floating docs.
-						In Notion, your daily work and knowledge live side by
-						side — so you never lose context.
-					</p>
-				</div>
-				<div class="featureMedia-container">
-					<img
-						class="featureImage"
-						src="https://www.notion.so/cdn-cgi/image/format=auto,width=3840,quality=100/front-static/pages/product/value-props/context-tile.png"
-						alt="image-feature2"
-					/>
-				</div>
-			</section>
-
-			<!-- FEAT 3 - BUILD THE WORKFLOW YOU WANT -->
-			<section class="feature-container">
-				<div class="featureText-container">
-					<div>
-						<img
-							class="featureIcon-3"
-							src="https://www.notion.so/cdn-cgi/image/format=auto,width=256,quality=100/front-static/pages/product/spot/spot-workflow.png"
-							alt="icon-feature3"
-						/>
-					</div>
-					<h3>Build the workflow you want</h3>
-					<p>
-						Customize Notion to make it work the way you want it to.
-					</p>
-					<p>
-						Just drag and drop to craft the dashboard, website, doc,
-						or system you need.
-					</p>
-				</div>
-				<div class="featureMedia-container">
-					<video autoplay playsinline loop muted class="featureVideo">
-						<source
-							src="https://www.notion.so/front-static/pages/product/value-props/workflow-tile-v2.mp4"
-							type="video/mp4"
-						/>
-						Your browser does not support HTML5 video.
-					</video>
-				</div>
-			</section>
-
-			<!-- FEAT 4 - BENEFIT FROM A GLOBAL ECOSYSTEM OF CREATORS -->
-			<section class="feature-container">
-				<div class="featureText-container">
-					<div>
-						<img
-							class="featureIcon-4"
-							src="https://www.notion.so/cdn-cgi/image/format=auto,width=256,quality=100/front-static/pages/product/spot/spot-ecosystem.png"
-							alt="icon-feature4"
-						/>
-					</div>
-					<h3>Benefit from a global ecosystem of creators</h3>
-					<p>
-						Get inspiration from thousands of community-made
-						templates, integrations, and events.<br />
-						You'll never want for resources or support.
-					</p>
-				</div>
-				<div class="featureMedia-container">
-					<img
-						class="featureImage"
-						src="https://www.notion.so/cdn-cgi/image/format=auto,width=1920,quality=100/front-static/pages/product/value-props/ecosystem-tile-v3.png"
-						alt="feature-4"
-					/>
-				</div>
-			</section>
-
-			<hr />
-
-			<!-- SECTION 2 -->
-			<section class="section-container">
-				<div class="sectionTitle-container">
-					<div class="sectionIcon-container">
-						<img
-							class="sectionIcon"
-							src="https://www.notion.so/cdn-cgi/image/format=auto,width=1920,quality=100/front-static/pages/product/bookshelf-spot.png"
-							alt="icon-section2"
-						/>
-					</div>
-					<div class="sectionText-container">
-						<h2>
-							Built for endless uses. <br />
-							Across all teams.
-						</h2>
-						<p>
-							Notion solves problems common and unique to every
-							team. These are just a few.
-						</p>
-						<a href="https://www.notion.so/signup" target="_blank">
-							<button class="button-2">Try Notion free</button>
-						</a>
-					</div>
-				</div>
-				<div>
-					<!-- LEARN: HOW TO DO TAB NAVIGATION -->
-				</div>
-			</section>
-
-			<hr />
-
-			<!-- SECTION 3 -->
-			<section class="section-container">
-				<div class="sectionTitle-container">
-					<div class="sectionIcon-container">
-						<img
-							class="sectionIcon"
-							src="https://www.notion.so/cdn-cgi/image/format=auto,width=1920,quality=100/front-static/pages/product/blocks-spot.png"
-							alt="icon-section3"
-						/>
-					</div>
-					<div class="sectionText-container">
-						<h2>
-							Start with a template. <br />
-							Modify it however you need.
-						</h2>
-						<p>
-							Choose from thousands of free, pre-built setups —
-							for work and life.
-						</p>
-						<a
-							href="https://www.notion.so/templates"
-							target="_blank"
-						>
-							<button class="button-white">
-								See all templates &#10230;
-							</button>
-						</a>
-					</div>
-				</div>
-				<div>
-					<!-- LEARN: HOW TO DO ARROW NAVIGATION -->
-				</div>
-			</section>
-
-			<hr />
-
-			<!-- SECTION 4 -->
-			<section class="section-container">
-				<div class="sectionTitle-container">
-					<div class="sectionIcon-container">
-						<img
-							class="sectionIcon-2"
-							src="https://www.notion.so/cdn-cgi/image/format=auto,width=1920,quality=100/front-static/shared/illustrations/teamwork.png"
-							alt="icon-section4"
-						/>
-					</div>
-					<div class="sectionText-container">
-						<h2>Used by the world's most innovative teams</h2>
-						<br />
-						<a
-							href="https://www.notion.so/customers"
-							target="_blank"
-						>
-							<button class="button-white">
-								Read all customer stories &#10230;
-							</button>
-						</a>
-					</div>
-				</div>
-
-				<!-- reviews -->
-
-				<section class="review-flex">
-					<!-- review 1 -->
-
-					<div class="review">
-						<div class="review-logo-container">
+			<div class="all-box">
+				<section>
+					<div class="header-container">
+						<div class="headerImage-container">
 							<img
-								class="review-logo"
-								src="https://www.notion.so/front-static/shared/logos/color/lattice.png"
-								alt="review-logo-1"
+								class="headerImage"
+								src="https://www.notion.so/cdn-cgi/image/format=auto,width=1080,quality=100/front-static/pages/product/home-page-hero-refreshed-v3.png"
+								alt="header-img"
 							/>
 						</div>
-						<div>
-							<blockquote>
-								"Now people know that, if they're going to ask
-								me a question, I probably put the answer in
-								Notion."
-							</blockquote>
-						</div>
+						<div class="headerText-container">
+							<h1>
+								One workspace.<br />
+								Every team.
+							</h1>
+							<p>
+								We're more than a doc. Or a table.<br />
+								Customize Notion to work the way you do.
+							</p>
 
-						<div class="review-person-container">
-							<div>
-								<img
-									class="review-personAvatar"
-									src="https://www.notion.so/cdn-cgi/image/format=auto,width=1920,quality=100/front-static/shared/people/emily-smith.png"
-									alt="review-avatar-1"
-								/>
-							</div>
-							<div>
-								<div class="review-personName">Emily Smith</div>
-								<div>Head of Customer Care</div>
-							</div>
-						</div>
-					</div>
+							<a
+								href="https://www.notion.so/signup"
+								target="_blank"
+							>
+								<button class="button-1">
+									Try Notion free
+								</button>
+							</a>
 
-					<!-- review 2 -->
+							<div class="headerTeam-container">
+								<p class="headerTeamText">
+									Trusted by teams at
+								</p>
+								<!-- logos -->
+								<div class="headerTeamImage-container">
+									<div class="headerTeamImage-size">
+										<img
+											class="headerTeamImage"
+											src="https://www.notion.so/front-static/pages/product/pixar-logo.png"
+											alt="logo-pixar"
+										/>
+									</div>
+									<div class="headerTeamImage-size">
+										<img
+											class="headerTeamImage"
+											src="https://www.notion.so/front-static/pages/product/travelperk-logo.png"
+											alt="logo-travelperk"
+										/>
+									</div>
+									<div class="headerTeamImage-size">
+										<img
+											class="headerTeamImage"
+											src="https://www.notion.so/front-static/pages/product/cornershop-logo.png"
+											alt="logo-cornershop"
+										/>
+									</div>
 
-					<div class="review">
-						<div class="review-logo-container">
-							<img
-								class="review-logo"
-								src="https://www.notion.so/front-static/shared/logos/color/loom.png"
-								alt="review-logo-2"
-							/>
-						</div>
-						<div>
-							<blockquote>
-								"Notion continues to be the easiest way to get
-								information centralized somewhere and shout it
-								out to someone else. For us, that's extremely
-								important because half our team is remote."
-							</blockquote>
-						</div>
-
-						<div class="review-person-container">
-							<div>
-								<img
-									class="review-personAvatar"
-									src="https://www.notion.so/cdn-cgi/image/format=auto,width=1920,quality=100/front-static/shared/people/vinay-hiremath.png"
-									alt="review-avatar-2"
-								/>
-							</div>
-							<div>
-								<div class="review-personName">
-									Vinay Hiremath
+									<div class="headerTeamImage-size">
+										<img
+											class="headerTeamImage"
+											src="https://www.notion.so/front-static/pages/product/spotify-logo-v2.png"
+											alt="logo-spotify"
+										/>
+									</div>
+									<div class="headerTeamImage-size">
+										<img
+											class="headerTeamImage"
+											src="https://www.notion.so/front-static/pages/product/headspace-logo.png"
+											alt="logo-headspace"
+										/>
+									</div>
 								</div>
-								<div>Co-founder and Head of Engineering</div>
-							</div>
-						</div>
-					</div>
-
-					<!-- review 3 -->
-
-					<div class="review">
-						<div class="review-logo-container">
-							<img
-								class="review-logo"
-								src="https://www.notion.so/front-static/shared/logos/color/figma.png"
-								alt="review-logo-3"
-							/>
-						</div>
-						<div>
-							<blockquote>
-								"Notion’s ease of use is one of its hallmarks.
-								It helps you visually navigate content and
-								remember where something is."
-							</blockquote>
-						</div>
-
-						<div class="review-person-container">
-							<div>
-								<img
-									class="review-personAvatar"
-									src="https://www.notion.so/cdn-cgi/image/format=auto,width=1920,quality=100/front-static/shared/people/marie-szuts.png"
-									alt="review-avatar-2"
-								/>
-							</div>
-							<div>
-								<div class="review-personName">Marie Szuts</div>
-								<div>Head of People Ops</div>
 							</div>
 						</div>
 					</div>
 				</section>
-			</section>
 
-			<hr />
+				<!-- FEAT 1 - TEAM UP WITHOUT THE CHAOS -->
+				<section class="feature-container">
+					<div class="featureText-container">
+						<div>
+							<img
+								class="featureIcon-1"
+								src="https://www.notion.so/cdn-cgi/image/format=auto,width=128,quality=100/front-static/pages/product/spot/spot-team-up.png"
+								alt="icon-feature1"
+							/>
+						</div>
+						<h3>Team up without the chaos</h3>
+						<p>
+							Connect your teams, projects, and docs in Notion —
+							so you can bust silos and move as one.
+						</p>
+					</div>
+					<div class="featureMedia-container">
+						<video
+							autoplay
+							playsinline
+							loop
+							muted
+							class="featureVideo"
+						>
+							<source
+								src="https://www.notion.so/front-static/pages/product/value-props/team-up-emoji-tile-v2.mp4"
+								type="video/mp4"
+							/>
+							Your browser does not support HTML5 video.
+						</video>
+					</div>
+				</section>
 
-			<!-- SECTION 5 -->
-			<section class="sectionEnd-container">
-				<div class="sectionEnd">
-					<div>
+				<!-- FEAT 2 - NEVER ASK "WHAT'S THE CONTEXT?" AGAIN -->
+				<section class="feature-container">
+					<div class="featureText-container">
+						<div>
+							<img
+								class="featureIcon-2"
+								src="https://www.notion.so/cdn-cgi/image/format=auto,width=256,quality=100/front-static/pages/product/spot/spot-context.png"
+								alt="icon-feature2"
+							/>
+						</div>
+						<h3>Never ask “What's the context?” again</h3>
+						<p>
+							Stale wikis aren't helpful. Neither are floating
+							docs. In Notion, your daily work and knowledge live
+							side by side — so you never lose context.
+						</p>
+					</div>
+					<div class="featureMedia-container">
 						<img
-							class="sectionEndIcon"
-							src="https://www.notion.so/cdn-cgi/image/format=auto,width=640,quality=100/front-static/shared/icons/notion-app-icon-3d.png"
+							class="featureImage"
+							src="https://www.notion.so/cdn-cgi/image/format=auto,width=3840,quality=100/front-static/pages/product/value-props/context-tile.png"
+							alt="image-feature2"
 						/>
 					</div>
-					<h2>Try Notion today</h2>
-					<p>
-						Get started for free. <br />
-						Add your whole team as your needs grow.
-					</p>
+				</section>
 
-					<a href="https://www.notion.so/signup" target="_blank">
-						<button class="button-3">Try Notion free</button>
-					</a>
+				<!-- FEAT 3 - BUILD THE WORKFLOW YOU WANT -->
+				<section class="feature-container">
+					<div class="featureText-container">
+						<div>
+							<img
+								class="featureIcon-3"
+								src="https://www.notion.so/cdn-cgi/image/format=auto,width=256,quality=100/front-static/pages/product/spot/spot-workflow.png"
+								alt="icon-feature3"
+							/>
+						</div>
+						<h3>Build the workflow you want</h3>
+						<p>
+							Customize Notion to make it work the way you want it
+							to.<br />
 
-					<p class="sectionEnd-subtext">
-						On a big team?
-						<span class="sectionEnd-contactSales">
+							Just drag and drop to craft the dashboard, website,
+							doc, or system you need.
+						</p>
+					</div>
+					<div class="featureMedia-container">
+						<video
+							autoplay
+							playsinline
+							loop
+							muted
+							class="featureVideo"
+						>
+							<source
+								src="https://www.notion.so/front-static/pages/product/value-props/workflow-tile-v2.mp4"
+								type="video/mp4"
+							/>
+							Your browser does not support HTML5 video.
+						</video>
+					</div>
+				</section>
+
+				<!-- FEAT 4 - BENEFIT FROM A GLOBAL ECOSYSTEM OF CREATORS -->
+				<section class="feature-container">
+					<div class="featureText-container">
+						<div>
+							<img
+								class="featureIcon-4"
+								src="https://www.notion.so/cdn-cgi/image/format=auto,width=256,quality=100/front-static/pages/product/spot/spot-ecosystem.png"
+								alt="icon-feature4"
+							/>
+						</div>
+						<h3>Benefit from a global ecosystem of creators</h3>
+						<p>
+							Get inspiration from thousands of community-made
+							templates, integrations, and events.<br />
+							You'll never want for resources or support.
+						</p>
+					</div>
+					<div class="featureMedia-container">
+						<img
+							class="featureImage"
+							src="https://www.notion.so/cdn-cgi/image/format=auto,width=1920,quality=100/front-static/pages/product/value-props/ecosystem-tile-v3.png"
+							alt="feature-4"
+						/>
+					</div>
+				</section>
+
+				<hr />
+
+				<!-- SECTION 2 -->
+				<section class="section-container">
+					<div class="sectionTitle-container">
+						<div class="sectionIcon-container">
+							<img
+								class="sectionIcon"
+								src="https://www.notion.so/cdn-cgi/image/format=auto,width=1920,quality=100/front-static/pages/product/bookshelf-spot.png"
+								alt="icon-section2"
+							/>
+						</div>
+						<div class="sectionText-container">
+							<h2>
+								Built for endless uses. <br />
+								Across all teams.
+							</h2>
+							<p>
+								Notion solves problems common and unique to
+								every team. These are just a few.
+							</p>
 							<a
-								href="https://www.notion.so/contact-sales"
+								href="https://www.notion.so/signup"
 								target="_blank"
-								>Contact sales
+							>
+								<button class="button-2">
+									Try Notion free
+								</button>
 							</a>
-						</span>
-					</p>
-				</div>
-				<!-- <div>
+						</div>
+					</div>
+					<div>
+						<!-- LEARN: HOW TO DO TAB NAVIGATION -->
+					</div>
+				</section>
+
+				<hr />
+
+				<!-- SECTION 3 -->
+				<section class="section-container">
+					<div class="sectionTitle-container">
+						<div class="sectionIcon-container">
+							<img
+								class="sectionIcon"
+								src="https://www.notion.so/cdn-cgi/image/format=auto,width=1920,quality=100/front-static/pages/product/blocks-spot.png"
+								alt="icon-section3"
+							/>
+						</div>
+						<div class="sectionText-container">
+							<h2>
+								Start with a template. <br />
+								Modify it however you need.
+							</h2>
+							<p>
+								Choose from thousands of free, pre-built setups
+								— for work and life.
+							</p>
+							<a
+								href="https://www.notion.so/templates"
+								target="_blank"
+							>
+								<button class="button-white">
+									See all templates &#10230;
+								</button>
+							</a>
+						</div>
+					</div>
+					<div>
+						<!-- LEARN: HOW TO DO ARROW NAVIGATION -->
+					</div>
+				</section>
+
+				<hr />
+
+				<!-- SECTION 4 -->
+				<section class="section-container">
+					<div class="sectionTitle-container">
+						<div class="sectionIcon-container">
+							<img
+								class="sectionIcon-2"
+								src="https://www.notion.so/cdn-cgi/image/format=auto,width=1920,quality=100/front-static/shared/illustrations/teamwork.png"
+								alt="icon-section4"
+							/>
+						</div>
+						<div class="sectionText-container">
+							<h2>Used by the world's most innovative teams</h2>
+
+							<a
+								href="https://www.notion.so/customers"
+								target="_blank"
+							>
+								<button class="button-white">
+									Read all customer stories &#10230;
+								</button>
+							</a>
+						</div>
+					</div>
+
+					<!-- reviews -->
+
+					<section class="review-flex">
+						<!-- review 1 -->
+
+						<div class="review">
+							<div class="review-logo-container">
+								<img
+									class="review-logo"
+									src="https://www.notion.so/front-static/shared/logos/color/lattice.png"
+									alt="review-logo-1"
+								/>
+							</div>
+							<div>
+								<blockquote>
+									"Now people know that, if they're going to
+									ask me a question, I probably put the answer
+									in Notion."
+								</blockquote>
+							</div>
+
+							<div class="review-person-container">
+								<div>
+									<img
+										class="review-personAvatar"
+										src="https://www.notion.so/cdn-cgi/image/format=auto,width=1920,quality=100/front-static/shared/people/emily-smith.png"
+										alt="review-avatar-1"
+									/>
+								</div>
+								<div>
+									<div class="review-personName">
+										Emily Smith
+									</div>
+									<div>Head of Customer Care</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- review 2 -->
+
+						<div class="review">
+							<div class="review-logo-container">
+								<img
+									class="review-logo"
+									src="https://www.notion.so/front-static/shared/logos/color/loom.png"
+									alt="review-logo-2"
+								/>
+							</div>
+							<div>
+								<blockquote>
+									"Notion continues to be the easiest way to
+									get information centralized somewhere and
+									shout it out to someone else. For us, that's
+									extremely important because half our team is
+									remote."
+								</blockquote>
+							</div>
+
+							<div class="review-person-container">
+								<div>
+									<img
+										class="review-personAvatar"
+										src="https://www.notion.so/cdn-cgi/image/format=auto,width=1920,quality=100/front-static/shared/people/vinay-hiremath.png"
+										alt="review-avatar-2"
+									/>
+								</div>
+								<div>
+									<div class="review-personName">
+										Vinay Hiremath
+									</div>
+									<div>
+										Co-founder and Head of Engineering
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- review 3 -->
+
+						<div class="review">
+							<div class="review-logo-container">
+								<img
+									class="review-logo"
+									src="https://www.notion.so/front-static/shared/logos/color/figma.png"
+									alt="review-logo-3"
+								/>
+							</div>
+							<div>
+								<blockquote>
+									"Notion's ease of use is one of its
+									hallmarks. It helps you visually navigate
+									content and remember where something is."
+								</blockquote>
+							</div>
+
+							<div class="review-person-container">
+								<div>
+									<img
+										class="review-personAvatar"
+										src="https://www.notion.so/cdn-cgi/image/format=auto,width=1920,quality=100/front-static/shared/people/marie-szuts.png"
+										alt="review-avatar-2"
+									/>
+								</div>
+								<div>
+									<div class="review-personName">
+										Marie Szuts
+									</div>
+									<div>Head of People Ops</div>
+								</div>
+							</div>
+						</div>
+					</section>
+				</section>
+
+				<hr />
+
+				<!-- SECTION 5 -->
+				<section class="sectionEnd-container">
+					<div class="sectionEnd">
+						<div>
+							<img
+								class="sectionEndIcon"
+								src="https://www.notion.so/cdn-cgi/image/format=auto,width=640,quality=100/front-static/shared/icons/notion-app-icon-3d.png"
+							/>
+						</div>
+						<h2>Try Notion today</h2>
+						<p>
+							Get started for free. <br />
+							Add your whole team as your needs grow.
+						</p>
+
+						<a href="https://www.notion.so/signup" target="_blank">
+							<button class="button-3">Try Notion free</button>
+						</a>
+
+						<p class="sectionEnd-subtext">
+							On a big team?
+							<span class="sectionEnd-contactSales">
+								<a
+									href="https://www.notion.so/contact-sales"
+									target="_blank"
+									>Contact sales
+								</a>
+							</span>
+						</p>
+					</div>
+					<!-- <div>
 					<img
 						class="sectionEnd-background"
 						src="https://www.notion.so/cdn-cgi/image/format=auto,width=640,quality=100/front-static/pages/product/sitting-character.png"
 					/>
 				</div> -->
-			</section>
-
-			<hr />
-
-			<!-- FOOTER -->
-
-			<footer>
-				<div class="footer-flex">
-					<div class="footer-item-logo">
-						<div class="footer-logo">
-							<img
-								class="notion-logo-full"
-								src="resources/logo-notion-full.png"
-							/>
-						</div>
-					</div>
-
-					<div class="footer-item">
-						<div class="footer-item-bold">Product</div>
-						<ul>
-							<li>Overview</li>
-							<li>Pricing</li>
-							<li>Customer stories</li>
-							<li>Desktop apps</li>
-							<li>Mobile apps</li>
-							<li>Web Clipper</li>
-						</ul>
-					</div>
-
-					<div class="footer-item">
-						<div class="footer-item-bold">Notion for</div>
-						<ul>
-							<li>Enterprise</li>
-							<li>Small business</li>
-							<li>Personal use</li>
-							<li>Remote work</li>
-							<li>Startups</li>
-							<li>Education</li>
-							<li>Engineering</li>
-							<li>Product</li>
-							<li>Design</li>
-							<li>Managers</li>
-						</ul>
-					</div>
-
-					<div class="footer-item">
-						<div class="footer-item-bold">Resources</div>
-						<ul>
-							<li>Blog</li>
-							<li>Guides & tutorials</li>
-							<li>Help center</li>
-							<li>Webinars</li>
-							<li>Template gallery</li>
-							<li>Community</li>
-							<li>What's new</li>
-							<li>Find a consultant</li>
-							<li>API docs</li>
-							<li>Switch from Evernote</li>
-							<li>Switch from Confluence</li>
-						</ul>
-					</div>
-
-					<div class="footer-item">
-						<div class="footer-item-bold">Templates</div>
-						<ul>
-							<li>Company home</li>
-							<li>Meeting notes</li>
-							<li>To-dos</li>
-							<li>Weekly agenda</li>
-							<li>Docs</li>
-							<li>Roadmap</li>
-							<li>Design system</li>
-							<li>New hire onboarding</li>
-							<li>Product wiki</li>
-							<li>Content calendar</li>
-						</ul>
-					</div>
-
-					<div class="footer-item">
-						<div class="footer-item-bold">Company</div>
-						<ul>
-							<li>About us</li>
-							<li>Careers</li>
-							<li>Media kit</li>
-							<li>Contact sales</li>
-							<li>Contact support</li>
-							<li>Email us</li>
-						</ul>
-					</div>
-				</div>
+				</section>
 
 				<hr />
 
-				<div class="footerBottom-container">
-					<div class="footerBottom-flex">
-						<ul class="footerBottom-item-flex">
-							<li class="footerBottom-item">Terms & privacy</li>
-							<li class="footerBottom-item">Security</li>
-							<li class="footerBottom-item">Status</li>
-						</ul>
-						<div class="footerBottom-copyright">
-							&#169;2021 Notion Labs, Inc.
+				<!-- FOOTER -->
+
+				<footer>
+					<div class="footer-flex">
+						<div class="footer-item-logo">
+							<div class="footer-logo">
+								<img
+									class="notion-logo"
+									src="resources/notion-logo-footer.svg"
+								/>
+							</div>
+						</div>
+
+						<div class="footer-item">
+							<div class="footer-item-bold">Product</div>
+							<ul>
+								<li>Overview</li>
+								<li>Pricing</li>
+								<li>Customer stories</li>
+								<li>Desktop apps</li>
+								<li>Mobile apps</li>
+								<li>Web Clipper</li>
+							</ul>
+						</div>
+
+						<div class="footer-item">
+							<div class="footer-item-bold">Notion for</div>
+							<ul>
+								<li>Enterprise</li>
+								<li>Small business</li>
+								<li>Personal use</li>
+								<li>Remote work</li>
+								<li>Startups</li>
+								<li>Education</li>
+								<li>Engineering</li>
+								<li>Product</li>
+								<li>Design</li>
+								<li>Managers</li>
+							</ul>
+						</div>
+
+						<div class="footer-item">
+							<div class="footer-item-bold">Resources</div>
+							<ul>
+								<li>Blog</li>
+								<li>Guides & tutorials</li>
+								<li>Help center</li>
+								<li>Webinars</li>
+								<li>Template gallery</li>
+								<li>Community</li>
+								<li>What's new</li>
+								<li>Find a consultant</li>
+								<li>API docs</li>
+								<li>Switch from Evernote</li>
+								<li>Switch from Confluence</li>
+							</ul>
+						</div>
+
+						<div class="footer-item">
+							<div class="footer-item-bold">Templates</div>
+							<ul>
+								<li>Company home</li>
+								<li>Meeting notes</li>
+								<li>To-dos</li>
+								<li>Weekly agenda</li>
+								<li>Docs</li>
+								<li>Roadmap</li>
+								<li>Design system</li>
+								<li>New hire onboarding</li>
+								<li>Product wiki</li>
+								<li>Content calendar</li>
+							</ul>
+						</div>
+
+						<div class="footer-item">
+							<div class="footer-item-bold">Company</div>
+							<ul>
+								<li>About us</li>
+								<li>Careers</li>
+								<li>Media kit</li>
+								<li>Contact sales</li>
+								<li>Contact support</li>
+								<li>Email us</li>
+							</ul>
 						</div>
 					</div>
 
-					<div class="social-logo-container">
-						<!-- TWITTER -->
-						<a href="https://twitter.com/NotionHQ" target="_blank">
-							<button class="social-logo">
-								<svg
-									class="social-twitter"
-									xmlns="http://www.w3.org/2000/svg"
-									width="24"
-									height="24"
-									viewBox="0 0 24 24"
-								>
-									<path
-										d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"
-									/>
-								</svg>
-							</button>
-						</a>
+					<hr />
 
-						<!-- LINKEDIN -->
-						<a
-							href="https://www.linkedin.com/company/notionhq/"
-							target="_blank"
-						>
-							<button class="social-logo">
-								<svg
-									class="social-linkedin"
-									xmlns="http://www.w3.org/2000/svg"
-									width="24"
-									height="24"
-									viewBox="0 0 24 24"
-								>
-									<path
-										d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"
-									/>
-								</svg>
-							</button>
-						</a>
+					<div class="footerBottom-container">
+						<div class="footerBottom-flex">
+							<ul class="footerBottom-item-flex">
+								<li class="footerBottom-item">
+									Terms & privacy
+								</li>
+								<li class="footerBottom-item">Security</li>
+								<li class="footerBottom-item">Status</li>
+							</ul>
+							<div class="footerBottom-copyright">
+								&#169;2021 Notion Labs, Inc.
+							</div>
+						</div>
 
-						<!-- FACEBOOK -->
-						<a
-							href="https://www.facebook.com/NotionHQ/"
-							target="_blank"
-						>
-							<button class="social-logo">
-								<svg
-									class="social-facebook"
-									xmlns="http://www.w3.org/2000/svg"
-									width="24"
-									height="24"
-									viewBox="0 0 24 24"
-								>
-									<path
-										d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"
-									/>
-								</svg>
-							</button>
-						</a>
+						<div class="social-logo-container">
+							<!-- TWITTER -->
+							<a
+								href="https://twitter.com/NotionHQ"
+								target="_blank"
+							>
+								<button class="social-logo">
+									<svg
+										class="social-twitter"
+										xmlns="http://www.w3.org/2000/svg"
+										width="24"
+										height="24"
+										viewBox="0 0 24 24"
+									>
+										<path
+											d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"
+										/>
+									</svg>
+								</button>
+							</a>
 
-						<!-- INSTAGRAM -->
-						<a
-							href="https://www.instagram.com/notionhq/"
-							target="_blank"
-						>
-							<button class="social-logo">
-								<svg
-									class="social-instagram"
-									xmlns="http://www.w3.org/2000/svg"
-									width="24"
-									height="24"
-									viewBox="0 0 24 24"
-								>
-									<path
-										d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
-									/>
-								</svg>
-							</button>
-						</a>
+							<!-- LINKEDIN -->
+							<a
+								href="https://www.linkedin.com/company/notionhq/"
+								target="_blank"
+							>
+								<button class="social-logo">
+									<svg
+										class="social-linkedin"
+										xmlns="http://www.w3.org/2000/svg"
+										width="24"
+										height="24"
+										viewBox="0 0 24 24"
+									>
+										<path
+											d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"
+										/>
+									</svg>
+								</button>
+							</a>
 
-						<!-- YOUTUBE -->
-						<a
-							href="https://www.youtube.com/channel/UCoSvlWS5XcwaSzIcbuJ-Ysg"
-							target="_blank"
-						>
-							<button class="social-logo">
-								<svg
-									class="social-youtube"
-									xmlns="http://www.w3.org/2000/svg"
-									width="24"
-									height="24"
-									viewBox="0 0 24 24"
-								>
-									<path
-										d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"
-									/>
-								</svg>
-							</button>
-						</a>
+							<!-- FACEBOOK -->
+							<a
+								href="https://www.facebook.com/NotionHQ/"
+								target="_blank"
+							>
+								<button class="social-logo">
+									<svg
+										class="social-facebook"
+										xmlns="http://www.w3.org/2000/svg"
+										width="24"
+										height="24"
+										viewBox="0 0 24 24"
+									>
+										<path
+											d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"
+										/>
+									</svg>
+								</button>
+							</a>
+
+							<!-- INSTAGRAM -->
+							<a
+								href="https://www.instagram.com/notionhq/"
+								target="_blank"
+							>
+								<button class="social-logo">
+									<svg
+										class="social-instagram"
+										xmlns="http://www.w3.org/2000/svg"
+										width="24"
+										height="24"
+										viewBox="0 0 24 24"
+									>
+										<path
+											d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
+										/>
+									</svg>
+								</button>
+							</a>
+
+							<!-- YOUTUBE -->
+							<a
+								href="https://www.youtube.com/channel/UCoSvlWS5XcwaSzIcbuJ-Ysg"
+								target="_blank"
+							>
+								<button class="social-logo">
+									<svg
+										class="social-youtube"
+										xmlns="http://www.w3.org/2000/svg"
+										width="24"
+										height="24"
+										viewBox="0 0 24 24"
+									>
+										<path
+											d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"
+										/>
+									</svg>
+								</button>
+							</a>
+						</div>
 					</div>
-				</div>
-			</footer>
+				</footer>
+			</div>
 		</div>
 	</body>
 </html>
