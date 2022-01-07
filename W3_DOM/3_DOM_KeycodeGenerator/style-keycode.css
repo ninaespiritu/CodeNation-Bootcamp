@@ -1,0 +1,117 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	color: rgb(183, 219, 248);
+	font-size: 18px;
+	font-weight: 500;
+	font-family: "Roboto Mono", "Source Code Pro", monospace;
+	background-color: #1b1e2b;
+	margin: 0px 30px;
+	text-align: center;
+}
+#page1 {
+	/* display: none; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #1b1e2b;
+	height: 100vh;
+}
+.page1-heading {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 800px;
+}
+#page2 {
+	display: none;
+	/* display: block; */
+}
+.page2-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.page2-event-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	/* align-items: center; */
+	width: 75vw;
+}
+.box {
+	padding: 10px;
+}
+.display {
+	display: flex;
+	color: white;
+	font-size: 250px;
+	font-weight: bold;
+	text-align: center;
+	margin: 20px 0;
+}
+h2 {
+	font-size: 44px;
+	text-align: center;
+}
+h3 {
+	color: white;
+	font-size: 32px;
+	margin: 15px 0;
+}
+
+@media all and (max-width: 1024px) {
+	.page2-event-container {
+		flex-flow: row wrap;
+		/* align-items: center; */
+		/* width: 70vw; */
+	}
+	.box {
+		width: 50%;
+	}
+	.display {
+		margin: 10px 0;
+	}
+}
+
+@media all and (max-width: 768px) {
+	body {
+		font-size: 16px;
+	}
+	h2 {
+		font-size: 40px;
+		text-align: center;
+	}
+	h3 {
+		font-size: 28px;
+	}
+	.display {
+		font-size: 220px;
+	}
+}
+
+@media all and (max-width: 600px) {
+	h2 {
+		font-size: 32px;
+		margin: 0 120px;
+	}
+	h3 {
+		font-size: 24px;
+	}
+	.display {
+		font-size: 200px;
+		margin: 10px 0;
+	}
+	.page2-event-container {
+		width: 80vw;
+	}
+}
+
+/* @media all and (max-width: 480px) {
+} */
