@@ -40,7 +40,7 @@ document.addEventListener("keyup", () => {
 // KEYPRESS = SOUND AND COLOR
 document.addEventListener("keypress", (event) => {
 	if (event.key == "a") {
-		audioClap.src = "audio/clap.wav";
+		audioClap.src = "audio/clap.mp3";
 		clap.style.backgroundColor = "#3B62B1";
 		h1.style.color = "#3B62B1";
 		h1.style.fontSize = "45px";
@@ -48,7 +48,7 @@ document.addEventListener("keypress", (event) => {
 });
 document.addEventListener("keypress", (event) => {
 	if (event.key == "s") {
-		audioHihat.src = "audio/hihat.wav";
+		audioHihat.src = "audio/hihat.mp3";
 		hihat.style.backgroundColor = "#515EC3";
 		h1.style.color = "#515EC3";
 		h1.style.fontSize = "45px";
@@ -56,7 +56,7 @@ document.addEventListener("keypress", (event) => {
 });
 document.addEventListener("keypress", (event) => {
 	if (event.key == "d") {
-		audioBass.src = "audio/bass.wav";
+		audioBass.src = "audio/bass.mp3";
 		bass.style.backgroundColor = "#6C57B7";
 		h1.style.color = "#6C57B7";
 		h1.style.fontSize = "42px";
@@ -64,7 +64,7 @@ document.addEventListener("keypress", (event) => {
 });
 document.addEventListener("keypress", (event) => {
 	if (event.key == "f") {
-		audioKick.src = "audio/kick.wav";
+		audioKick.src = "audio/kick.mp3";
 		kick.style.backgroundColor = "#994C9F";
 		h1.style.color = "#994C9F";
 		h1.style.fontSize = "42px";
@@ -72,7 +72,7 @@ document.addEventListener("keypress", (event) => {
 });
 document.addEventListener("keypress", (event) => {
 	if (event.key == "g") {
-		audioCrashCymbal.src = "audio/crashcymbal.wav";
+		audioCrashCymbal.src = "audio/crashcymbal.mp3";
 		crashcymbal.style.backgroundColor = "#9F4C77";
 		h1.style.color = "#9F4C77";
 		h1.style.fontSize = "52px";
@@ -80,7 +80,7 @@ document.addEventListener("keypress", (event) => {
 });
 document.addEventListener("keypress", (event) => {
 	if (event.key == "h") {
-		audioRideCymbal.src = "audio/ridecymbal.wav";
+		audioRideCymbal.src = "audio/ridecymbal.mp3";
 		ridecymbal.style.backgroundColor = "#B35E66";
 		h1.style.color = "#B35E66";
 		h1.style.fontSize = "50px";
@@ -88,7 +88,7 @@ document.addEventListener("keypress", (event) => {
 });
 document.addEventListener("keypress", (event) => {
 	if (event.key == "j") {
-		audioSnare.src = "audio/snare.wav";
+		audioSnare.src = "audio/snare.mp3";
 		snare.style.backgroundColor = "#B3AB55";
 		h1.style.color = "#B3AB55";
 		h1.style.fontSize = "47px";
@@ -96,7 +96,7 @@ document.addEventListener("keypress", (event) => {
 });
 document.addEventListener("keypress", (event) => {
 	if (event.key == "k") {
-		audioSmallTom.src = "audio/smalltom.wav";
+		audioSmallTom.src = "audio/smalltom.mp3";
 		smalltom.style.backgroundColor = "#5F9851";
 		h1.style.color = "#5F9851";
 		h1.style.fontSize = "42px";
@@ -104,7 +104,7 @@ document.addEventListener("keypress", (event) => {
 });
 document.addEventListener("keypress", (event) => {
 	if (event.key == "l") {
-		audioMediumTom.src = "audio/mediumtom.wav";
+		audioMediumTom.src = "audio/mediumtom.mp3";
 		mediumtom.style.backgroundColor = "#369C7C";
 		h1.style.color = "#369C7C";
 		h1.style.fontSize = "45px";
