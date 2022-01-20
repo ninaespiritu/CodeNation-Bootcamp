@@ -1,11 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Mono:wght@100;200;300;400;500;600;700&family=Source+Code+Pro:wght@200;300;400;500;600;700;800;900&display=swap");
+
 * {
 	box-sizing: border-box;
 }
-
 body {
 	color: white;
 	background-color: #1b1e2b;
-	/* font-size: 18px; */
 	font-family: "Source Code Pro", "Roboto Mono", monospace;
 	display: flex;
 	flex-direction: column;
@@ -20,7 +20,6 @@ h1 {
 	margin-bottom: 30px;
 }
 .header {
-	/* line-height: 14px; */
 	padding-bottom: 20px;
 	line-height: 14px;
 }
@@ -40,9 +39,6 @@ h1 {
 	padding: 15px;
 	margin: 0px;
 }
-/* #scorePlayer1, #scorePlayer2 {
-	
-} */
 #namePlayer1,
 #namePlayer2 {
 	font-weight: bold;
@@ -82,19 +78,16 @@ h1 {
 	margin: 15px;
 	width: 300px;
 }
-
 #imagePlayer1,
 #imagePlayer2 {
 	width: 100%;
 	height: auto;
 }
-
 #playAgain1,
 #playAgain2 {
 	display: none;
 	width: 100%;
 }
-
 .buttons {
 	display: flex;
 	flex-direction: row;
@@ -117,7 +110,6 @@ button {
 }
 button:hover {
 	background-color: #10121a;
-	/* background-color: #0b0c11; */
 }
 
 @media all and (max-width: 1024px) {
@@ -139,12 +131,6 @@ button:hover {
 		max-width: 250px;
 		max-height: 250px;
 	}
-	/* .buttons {
-		width: 85%;
-	} */
-	/* button {
-		width: 115px;
-	} */
 }
 
 @media all and (max-width: 600px) {

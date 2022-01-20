@@ -1,13 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Mono:wght@100;200;300;400;500;600;700&family=Source+Code+Pro:wght@200;300;400;500;600;700;800;900&display=swap");
+
 * {
-	/* margin: 0;
-    padding: 0; */
 	box-sizing: border-box;
 }
 
 body {
 	color: white;
 	background-color: #1b1e2b;
-	/* font-size: 18px; */
 	font-family: "Source Code Pro", "Roboto Mono", monospace;
 	display: flex;
 	flex-direction: column;
@@ -22,6 +21,7 @@ body {
 	width: 80%;
 	padding-bottom: 40px;
 }
+
 .score-container {
 	background-color: #161822;
 	border-radius: 10px;
@@ -29,9 +29,11 @@ body {
 	padding: 15px;
 	margin: 0px;
 }
+
 #scorePlayer1 {
 	text-transform: uppercase;
 }
+
 .areaPlayer1 {
 	display: flex;
 	flex-direction: column;
@@ -39,12 +41,13 @@ body {
 	align-items: center;
 	height: 40%;
 }
+
 #rollText1 {
 	font-size: 22px;
 	font-weight: 600;
 	font-family: "Source Code Pro", "Roboto Mono", monospace;
-	/* text-transform: uppercase; */
 }
+
 .image-container {
 	display: none;
 	background-color: #13151e;
@@ -52,18 +55,22 @@ body {
 	padding: 15px;
 	width: 250px;
 }
+
 #imagePlayer1 {
 	width: 100%;
 	height: auto;
 }
+
 .buttons {
 	display: flex;
 	flex-direction: column;
 	width: 250px;
 }
+
 #playAgain {
 	display: none;
 }
+
 button {
 	color: white;
 	background-color: #161822;
@@ -77,10 +84,7 @@ button {
 	padding: 20px 30px;
 	cursor: pointer;
 }
+
 button:hover {
 	background-color: #10121a;
-	/* background-color: #0b0c11; */
-}
-
-@media all and (max-width: 1024px) {
 }
